@@ -50,7 +50,21 @@ Note: We are using podman for building this environment.
 ### Quantitative results
 
 #### Performance across baselines and SurgConcept-CT
-
+|Model | Inputs | AUC(%) | TAR(%)@FAR=0.2 | TAR(%)@FAR=0.3 |
+| :---: | :---: | :---: | :---: | :---: |
+|Logistic Regression | clinical only | 75.11   | 57.32 | 71.95   |
+|Gradient Boosting Classifier | clinical only  | 70.77  | 45.12 | 68.29  |
+|XGBoost | clinical only  | 66.69  | 41.46  | 54.88  |
+|Random Forest Classifier | clinical only   | 72.29 | 56.10   | 64.63  |
+|SVC | clinical only   | 71.23 | 46.34   | 54.88  |
+|TabTransformer | clinical only   | 74.35 | 52.44   | 73.17  |
+|FTTransformer | clinical only   | 73.79 | 59.76   | 70.73  |
+|Merlin | CT only   | 55.96 | 24.39   | 41.46  |
+|TANGERINE | CT only   | 66.24 | 35.37   | 50.00  |
+|Merlin | CT + clinical summaries   | 70.52 | 47.56   | 60.98  |
+|M3D-LaMed | CT + clinical summaries   | 70.81 | 45.12   | 62.19  |
+|RadFM | CT + clinical summaries   | 73.69 | 53.66   | 68.29  |
+|SurgConcept-CT | clinical + CT   | **76.85** | **64.63**   | **74.39**  |
 
 #### ROC for performance comparison
 ![ROC](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/combined_ROC.png)
