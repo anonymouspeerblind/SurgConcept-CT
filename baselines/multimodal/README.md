@@ -1,1 +1,2 @@
-
+- Contains benchmark scripts for models that use CT volumes and textual summaries of clinical data
+- Will need to clone github repo of Merlin, RadFM and M3D-LaMed, link to which is provided in cmd line arguments in benchmarking scripts
