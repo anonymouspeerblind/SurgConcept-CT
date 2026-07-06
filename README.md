@@ -81,7 +81,7 @@ Clinically guided CT attention overlay for a test split patient, who developed a
 | **&check;** | **&check;** | 76.85 | 64.63 | 74.39 |
 
 ## Contact
-For more information or any questions, feel free to reach us at anonymouspeerblind@gmail.com
+For more information, feel free to reach us at anonymouspeerblind@gmail.com
 
 ## License
-SurgConcept-CT is CC-BY-NC 4.0 licensed, as found in the LICENSE file. It is released for academic research / non-commercial use only.
+SurgConcept-CT is CC-BY-NC 4.0 licensed, as found in the LICENSE file.
