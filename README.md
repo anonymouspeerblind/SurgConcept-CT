@@ -1,9 +1,12 @@
 # SurgConcept-CT
 **Codebase for anonymous submission to WACV 2027 R1**
 
+In this paper, we present SurgConcept-CT, a clinically guided concept bottleneck multimodal framework for predicting postoperative complications probability after lung cancer surgery, using preoperative clinical data and CT imaging. The proposed framework consists of following parts:
+- Clinical data encoder branch: 
+
 ![SurgConcept-CT architecture](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/surgconcept_ct_architecture.png)
 
-## Installations
+## Installation and environment
 - In the build.sh file, insert path of your working code directory, path of directory containing your data and a big scratch folder path in PROJECT_DIR_1, PROJECT_DIR_2 and PROJECT_DIR_3 respectively
 - Change the path of hooks-dir, huggingface home, hub cache and XET cache paths in build.sh to your appropriate paths
 - Change the workspace path in build.sh
