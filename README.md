@@ -24,7 +24,7 @@ chmod +x build.sh
 Note: We are using podman for building this environment.
 
 ## Preparing and Preprocessing data
-- We evaluate SurgConcept-CT on LungComp-CT, a private real world cohort of lung cancer surgery patients treated at a prominent cancer research hospital between 2009 and 2023
+- We evaluate SurgConcept-CT on **LungComp-CT**, a private real world cohort of lung cancer surgery patients treated at a prominent cancer research hospital between 2009 and 2023
 - Due to patient privacy and institutional restrictions, LungComp-CT cannot be publicly released
 - To the best of our knowledge, no publicly available dataset currently matches the structure of our dataset or addresses the same downstream task of predicting the probability of postoperative pulmonary complications after lung cancer surgery
 - The dataset contains 3,277 patients and is split into 2,719 training, 279 validation and 279 testing patients respectively
@@ -36,3 +36,25 @@ Note: We are using podman for building this environment.
 ## Pretrained Checkpoints
 - For clinical only model: [Link](https://drive.google.com/file/d/1z3m7zFv8-sMateoP0oJlMinrLcQ0iIQq/view?usp=sharing)
 - For full SurgConcept-CT model: [Link](https://drive.google.com/file/d/1sDQGqHiYjTYqu7kqaRIkMJwElacbHTy7/view?usp=sharing)
+
+## Training
+- SurgConcept-CT can be trained using train.py script on the training split of LungComp-CT and validates the performance per epoch on the validation split
+- SurgConcept-CT was trained in 2 stages: clinical only and full model
+- Script runs for both stages of training
+- Hyperparameters regarding the training settings are provided in the paper
+
+## Testing and Evaluation
+- Trained model checkpoint (provided above) can be evaluated on the testing split using inference.py script
+
+## Results
+### Quantitative results
+
+#### Performance across baselines and SurgConcept-CT
+
+
+#### ROC for performance comparison
+![ROC](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/combined_ROC.png)
+
+### Qualitative CT attention results
+![ct-attention](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/attention_overlay_montage.png)
+Clinically guided CT attention overlay for a test split patient, who developed a postoperative pulmonary complication. Axial slices from the reconstructed preoperative CT volume are shown with the model’s normalized CT attention scores overlaid. Each colored block corresponds to one regional CT token, with warmer colors indicating regions assigned with greater attention by the clinically guided CT attention module during risk prediction. This illustrates model level regional importance and not voxel level disease localization.
