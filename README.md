@@ -58,3 +58,16 @@ Note: We are using podman for building this environment.
 ### Qualitative CT attention results
 ![ct-attention](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/attention_overlay_montage.png)
 Clinically guided CT attention overlay for a test split patient, who developed a postoperative pulmonary complication. Axial slices from the reconstructed preoperative CT volume are shown with the model’s normalized CT attention scores overlaid. Each colored block corresponds to one regional CT token, with warmer colors indicating regions assigned with greater attention by the clinically guided CT attention module during risk prediction. This illustrates model level regional importance and not voxel level disease localization.
+
+
+## Ablation study
+|Clinical | CT Volume | AUC(%) | TAR(%)@FAR=0.2 | TAR(%)@FAR=0.3 |
+| :---: | :---: | :---: | :---: | :---: |
+| **&check;** | **&hyphen;** | 74.61 | 52.44 | 70.73 |
+| **&check;** | **&check;** | 76.85 | 64.63 | 74.39 |
+
+## Contact
+For more information or any questions, feel free to reach us at anonymouspeerblind@gmail.com
+
+## License
+SurgConcept-CT is CC-BY-NC 4.0 licensed, as found in the LICENSE file. It is released for academic research / non-commercial use only.
