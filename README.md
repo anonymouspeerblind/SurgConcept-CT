@@ -67,8 +67,7 @@ Note: We are using podman for building this environment.
 |SurgConcept-CT | clinical + CT   | **76.85** | **64.63**   | **74.39**  |
 
 #### ROC for performance comparison
-![ROC]()
-<img width="1000" height="1000" alt="combined_ROC" src="https://github.com/user-attachments/assets/1112cb8d-6a41-4f85-8320-7aa72283b7fc](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/combined_ROC.png" />
+![ROC](https://github.com/user-attachments/assets/1112cb8d-6a41-4f85-8320-7aa72283b7fc](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/combined_ROC.png)
 
 ### Qualitative CT attention results
 ![ct-attention](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/attention_overlay_montage.png)
