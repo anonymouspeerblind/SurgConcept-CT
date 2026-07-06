@@ -1,0 +1,14 @@
+{
+    "complications": [
+        "Adult Respiratory Distress Syndrome",
+        "Pneumonia",
+        "Atelectasis Requiring Bronchoscopy",
+        "Bronchopleural Fistula",
+        "Pneumothorax",
+        "Air Leak Greater Than Five Days",
+        "Tracheostomy",
+        "Unexpected Admission To ICU",
+        "Empyema Requiring Treatment",
+        "Initial Vent Support >48 Hours"
+    ]
+}

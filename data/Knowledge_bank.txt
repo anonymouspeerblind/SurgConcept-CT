@@ -1,0 +1,103 @@
+Following describes the preoperative factors in detail, that we are taking into account:
+
+1. Age
+- **Impact**: Advanced age (≥70 years) increases the risk of postoperative pulmonary complications, such as pneumonia, respiratory failure, and atelectasis. This risk is often compounded by comorbidities like cardiovascular disease, diabetes, and chronic obstructive pulmonary disease (COPD).
+- **Risk Stratification**:
+  - Higher Risk (≥70 years with comorbidities): Increased likelihood of complications.
+  - Moderate Risk (≥70 years with good pulmonary function): Mitigated risk if preoperative FEV1 thresholds are met (e.g., >2 L for pneumonectomy, >1.5 L for lobectomy, >0.6 L for segmentectomy).
+- **Summary**: Age alone is not a contraindication for surgery but should be considered alongside pulmonary function and comorbidities.
+
+2. Body Mass Index (BMI)
+- **Low BMI (<18.5)**: Associated with higher risks of severe complications, including pneumonia, atelectasis requiring bronchoscopy, and prolonged air leaks. Patients with low BMI often have compromised nutritional status, weakened immune responses, and reduced respiratory muscle strength.
+- **High BMI (≥30)**: Linked to elevated risks of infections, delayed recovery, and respiratory complications such as ARDS and prolonged ventilator support. Obesity can impair pulmonary mechanics and reduce cardiopulmonary reserve.
+- **Optimal BMI (18.5–29)**: Generally associated with lower complication risks due to better nutritional reserves and lung function.
+- **Key Interaction**: Low BMI in older patients (≥65 years) or those with COPD significantly increases complication risks.
+
+3. Gender
+- **Male Patients**: Higher risk of postoperative complications, including prolonged air leaks, unexpected ICU admissions, and respiratory distress syndromes. Men also have higher rates of comorbidities like diabetes and coronary artery disease.
+- **Female Patients**: Lower complication rates and better survival outcomes, potentially due to younger age, fewer comorbidities, and less extensive surgical resections.
+- **Summary**: Male patients are at greater risk for complications due to older age, more comorbidities, and more extensive surgeries.
+
+4. FEV1 (Forced Expiratory Volume in 1 Second)
+- **Low FEV1 (<40% predicted)**: Strongly associated with increased postoperative morbidity and mortality, particularly for complications like pneumonia, ARDS, and prolonged ventilator support.
+- **Moderate FEV1 (40–70% predicted)**: Patients with COPD may experience smaller reductions in FEV1 post-surgery due to pre-existing lung adaptation.
+- **Normal FEV1 (>70% predicted)**: Acceptable risk levels, though complications can still occur (~9% incidence).
+- **Interactions**: FEV1’s predictive power is stronger at lower values but less reliable as it increases. COPD severity and perioperative management also influence outcomes.
+
+5. DLCO (Diffusing Capacity of the Lungs for Carbon Monoxide)
+- **DLCO <40% predicted**: High risk of prolonged ventilation, respiratory distress, and ARDS.
+- **DLCO 40–60% predicted**: Moderate risk of complications like atelectasis and unexpected ICU admissions.
+- **DLCO >60% predicted**: Lower risk, though comorbidities like COPD can still contribute to complications.
+- **Summary**: DLCO is a critical predictor of gas exchange efficiency and should be measured when FEV1 <80% predicted.
+
+6. Prior Cardiothoracic Surgery
+- **Impact**: Increases the risk of postoperative complications due to altered pulmonary mechanics, residual scarring, and compromised lung tissue integrity.
+- **Associated Complications**:
+  - Pneumonia: Due to impaired mucociliary clearance.
+  - Atelectasis: Common post-surgery, potentially requiring bronchoscopy.
+  - Prolonged air leaks: Compromised lung tissue integrity.
+  - Unexpected ICU admissions: Due to decreased physiological reserves.
+  - Prolonged ventilator support: Related to pre-existing pulmonary impairment.
+- **Summary**: Patients with prior cardiothoracic surgery require thorough preoperative assessment and monitoring.
+
+7. Preoperative Chemotherapy and Thoracic Radiation Therapy
+- **Chemotherapy**: Increases the risk of pulmonary complications (e.g., pneumonia, atelectasis) due to reduced pulmonary reserve and immune suppression. However, it improves resectability and survival rates.
+- **Thoracic Radiation**: Can lead to radiation-induced lung injury, fibrosis, and impaired lung compliance, increasing the risk of ARDS and prolonged ventilator support.
+- **Summary**: Both therapies improve tumor control but elevate complication risks, necessitating careful risk-benefit analysis.
+
+8. Cigarette Smoking and Pack-Years of Cigarette Use
+- **Current Smokers**: Higher rates of complications (e.g., pneumonia, prolonged ventilator support) due to pulmonary inflammation, impaired mucociliary clearance, and reduced immune response.
+- **Former Smokers**: Elevated risks compared to never smokers, though the risk decreases with longer smoking cessation periods.
+- **Pack-Years**: Higher pack-years correlate with diminished pulmonary reserve, chronic lung conditions, and increased operative risk.
+- **Summary**: Smoking cessation is beneficial but does not fully mitigate risks, emphasizing the need for preoperative pulmonary rehabilitation.
+
+9. ECOG (Eastern Cooperative Oncology Group) Score
+- **Higher ECOG Scores**: Correlate with higher complication risks due to compromised respiratory function and decreased ability to cope with surgical stress.
+- **Risk Stratification**:
+  - ECOG 3–4: High risk of complications, often contraindicating surgery.
+  - ECOG 1–2: Moderate risk but surgery may still be feasible.
+  - ECOG 0: Lowest risk.
+- **Summary**: ECOG score reflects overall functional status and is a key predictor of postoperative outcomes.
+
+10. ASA (American Society of Anesthesiologists) Classification
+- **ASA I**: Minimal risk of complications.
+- **ASA II**: Slightly elevated risk due to mild systemic diseases.
+- **ASA III**: Moderate to high risk, particularly for complications like pneumonia and atelectasis.
+- **ASA IV**: High risk, with increased likelihood of severe complications like ARDS and prolonged ventilator support.
+- **ASA V**: Extremely high risk, with significant morbidity and mortality.
+- **Summary**: ASA classification is a critical indicator of overall perioperative risk.
+
+11. Tumor Size
+- **Large Tumors (>5 cm)**: Higher risk of complications due to extensive surgical resection and disruption of lung tissue.
+- **Moderate Tumors (3–5 cm)**: Intermediate risk, depending on surgical complexity and comorbidities.
+- **Small Tumors (≤3 cm)**: Lower risk of complications.
+- **Summary**: Tumor size influences surgical complexity and postoperative risks, particularly for larger tumors.
+
+12. TNM Clinical Staging
+- **T (Tumor)**:
+  - T1–T2: Lower risk of complications.
+  - T3–T4: Higher risk due to more invasive surgery and compromised lung function.
+- **N (Nodes)**:
+  - N0–N1: Lower risk.
+  - N2–N3: Higher risk due to more aggressive surgical approaches.
+- **M (Metastasis)**:
+  - M0: Lower risk.
+  - M1: Higher risk, particularly for patients with distant metastases requiring palliative surgery.
+- **Summary**: Advanced TNM stages correlate with more invasive surgery and higher complication risks.
+
+13. Surgical Procedure
+- **Lobectomy and Pneumonectomy**: Higher risk of complications, including pneumonia, ARDS, and prolonged air leaks.
+- **Segmentectomy and Wedge Resection**: Lower risk but still associated with complications like atelectasis and air leaks.
+- **Thoracoscopy vs. Thoracotomy**: Thoracoscopy is associated with lower complication rates compared to open thoracotomy.
+- **Summary**: Surgical approach and procedure type significantly influence postoperative risks.
+
+14. Research Insights
+- **STS Lung Cancer Resection Risk Model**: Thoracotomy predicts worse outcomes, while thoracoscopy reduces morbidity. Smoking history, advanced tumor stage, and resection extent are key predictors of complications.
+- **DLCO and FEV1**: Critical predictors of postoperative outcomes, with DLCO providing additional insights into gas exchange efficiency.
+- **BMI and Smoking**: Low BMI and smoking history are significant risk factors for complications, particularly in older patients.
+
+Summary of Key Interactions
+- **Age and BMI**: Older patients with low BMI are at higher risk for complications, especially if comorbidities like COPD are present.
+- **Smoking and FEV1**: Current smokers with low FEV1 are at increased risk for infections and prolonged air leaks.
+- **Prior Surgery and ASA Classification**: Patients with prior cardiothoracic surgery and higher ASA scores require closer monitoring for severe complications.
+- **Tumor Characteristics and Surgical Approach**: Larger tumors and more invasive procedures (e.g., pneumonectomy) elevate complication risks.

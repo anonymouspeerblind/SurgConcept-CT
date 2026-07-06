@@ -1,0 +1,40 @@
+{
+  "feature_order": [
+    "Age",
+    "BMI",
+    "FEV1 Predicted",
+    "DLCO Predicted",
+    "Pack-Years Of Cigarette Use",
+    "Gender",
+    "Prior Cardiothoracic Surgery",
+    "Preoperative Chemo - Current Malignancy",
+    "Preoperative Thoracic Radiation Therapy",
+    "Cigarette Smoking",
+    "ECOG Score",
+    "ASA Classification",
+    "Tumor Size",
+    "Clinical Staging - Lung Cancer - T",
+    "Clinical Staging - Lung Cancer - N",
+    "Clinical Staging - Lung Cancer - M",
+    "Procedure"
+  ],
+  "feature_name_to_id": {
+    "Age": 0,
+    "BMI": 1,
+    "FEV1 Predicted": 2,
+    "DLCO Predicted": 3,
+    "Pack-Years Of Cigarette Use": 4,
+    "Gender": 5,
+    "Prior Cardiothoracic Surgery": 6,
+    "Preoperative Chemo - Current Malignancy": 7,
+    "Preoperative Thoracic Radiation Therapy": 8,
+    "Cigarette Smoking": 9,
+    "ECOG Score": 10,
+    "ASA Classification": 11,
+    "Tumor Size": 12,
+    "Clinical Staging - Lung Cancer - T": 13,
+    "Clinical Staging - Lung Cancer - N": 14,
+    "Clinical Staging - Lung Cancer - M": 15,
+    "Procedure": 16
+  }
+}

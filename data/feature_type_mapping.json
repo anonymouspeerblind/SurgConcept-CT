@@ -1,0 +1,38 @@
+{
+    "feature_to_type" : {
+        "Age": "demographic",
+        "BMI": "body_habitus",
+        "FEV1 Predicted": "pulmonary_airflow",
+        "DLCO Predicted": "pulmonary_gas_exchange",
+        "Pack-Years Of Cigarette Use": "smoking_burden",
+        "Gender": "demographic",
+        "Prior Cardiothoracic Surgery": "surgical_history",
+        "Preoperative Chemo - Current Malignancy": "neoadjuvant_treatment",
+        "Preoperative Thoracic Radiation Therapy": "neoadjuvant_treatment",
+        "Cigarette Smoking": "smoking_status",
+        "ECOG Score": "functional_status",
+        "ASA Classification": "systemic_anesthesia_risk",
+        "Tumor Size": "tumor_burden",
+        "Clinical Staging - Lung Cancer - T": "tumor_stage",
+        "Clinical Staging - Lung Cancer - N": "nodal_stage",
+        "Clinical Staging - Lung Cancer - M": "metastatic_stage",
+        "Procedure": "procedure_burden"
+    },
+    "feature_type_to_ID":{
+        "demographic": 0,
+        "body_habitus": 1,
+        "pulmonary_airflow": 2,
+        "pulmonary_gas_exchange": 3,
+        "smoking_burden": 4,
+        "surgical_history": 5,
+        "neoadjuvant_treatment": 6,
+        "smoking_status": 7,
+        "functional_status": 8,
+        "systemic_anesthesia_risk": 9,
+        "tumor_burden": 10,
+        "tumor_stage": 11,
+        "nodal_stage": 12,
+        "metastatic_stage": 13,
+        "procedure_burden": 14
+    }
+}

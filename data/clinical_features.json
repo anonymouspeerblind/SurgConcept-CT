@@ -1,0 +1,21 @@
+{
+    "clinical_features": [
+        "Age",
+        "BMI",
+        "FEV1 Predicted",
+        "DLCO Predicted",
+        "Pack-Years Of Cigarette Use",
+        "Gender",
+        "Prior Cardiothoracic Surgery",
+        "Preoperative Chemo - Current Malignancy",
+        "Preoperative Thoracic Radiation Therapy",
+        "Cigarette Smoking",
+        "ECOG Score",
+        "ASA Classification",
+        "Tumor Size",
+        "Clinical Staging - Lung Cancer - T",
+        "Clinical Staging - Lung Cancer - N",
+        "Clinical Staging - Lung Cancer - M",
+        "Procedure"
+    ]
+}

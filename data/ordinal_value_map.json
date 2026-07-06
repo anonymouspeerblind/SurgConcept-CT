@@ -1,0 +1,20 @@
+{
+    "Ordinal_values":{
+        "Prior Cardiothoracic Surgery": {"No": 0, "Yes": 1},
+        "Preoperative Chemo - Current Malignancy": {"No": 0, "Yes": 1},
+        "Preoperative Thoracic Radiation Therapy": {"No": 0, "Yes": 1},
+        "Cigarette Smoking": {"Never smoked": 0, "Past smoker (stopped more than 1 month prior to operation)": 0.5, "Current smoker": 1.0},
+        "ECOG Score": {"0 - Fully active, able to carry on all pre-disease performance without restriction": 0,
+                        "1 - Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, offi": 0.25,
+                        "2 - Ambulatory and capable of all self-care but unable to carry out any work activities. Up and about more than 50% of waking hours": 0.5,
+                        "3 - Capable of only limited self-care, confined to bed or chair more than 50% of waking hours": 0.75,
+                        "4 - Completely disabled; cannot carry on any selfcare; totally confined to bed or chair": 1},
+        "ASA Classification": {"I": 0, "II": 0.25, "III": 0.5, "IV": 0.75, "V": 1},
+        "Tumor Size": {"<3cm": 0, "3-5cm": 0.33, "5-7cm": 0.67, ">7cm": 1},
+        "Clinical Staging - Lung Cancer - T": {"Tis": 0, "T1": 0.25, "T2": 0.5, "T3": 0.75, "T4": 1},
+        "Clinical Staging - Lung Cancer - N": {"N0": 0, "N1": 0.5, "N2": 1},
+        "Clinical Staging - Lung Cancer - M": {"M0": 0, "M1": 1},
+        "Procedure": {"Lymphadenectomy": 0.142, "wedge": 0.285, "segmentectomy": 0.426, "unlisted": 0.5, "plication": 0.568, "decortication": 0.71, "lobectomy": 0.852, 
+                    "chest wall excision": 0.98, "pneumonectomy": 1}
+    }
+}
