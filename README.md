@@ -1,5 +1,5 @@
 # SurgConcept-CT
-**Anonymous submission to WACV 2027 R1**
+**Codebase for anonymous submission to WACV 2027 R1**
 
 ![SurgConcept-CT architecture](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/surgconcept_ct_architecture.png)
 
