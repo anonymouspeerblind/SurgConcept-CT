@@ -1,1 +1,2 @@
-
+- Contains benchmark scripts for models that use on CT volumes
+- Will need to clone github repo of Merlin and TANGERINE, link to which is provided in cmd line arguments in benchmarking scripts
