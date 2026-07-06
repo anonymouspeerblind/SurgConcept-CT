@@ -13,3 +13,5 @@
 chmod +x build.sh
 ./build.sh
 ```
+Note: We are using podman for building this environment.
+
