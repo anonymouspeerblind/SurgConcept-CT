@@ -2,7 +2,12 @@
 **Codebase for anonymous submission to WACV 2027 R1**
 
 In this paper, we present SurgConcept-CT, a clinically guided concept bottleneck multimodal framework for predicting postoperative complications probability after lung cancer surgery, using preoperative clinical data and CT imaging. The proposed framework consists of following parts:
-- Clinical data encoder branch: 
+- Clinical feature tokenization and encoder branch: consist of a tokenization layer that tokenizes clinical features' name, types, ordinal and numerical values and encodes them using a transformer encoder
+- CT volume encoder and Regional pooling: Takes the preprocessed CT encoder as inputs and encodes them using frozen TANGERINE encoder, pooling the representation from it into an internal token grid of 64 coarse spatial regions, followed by projection through a trainable MLP projector 
+- Clinically guided CT Regional Attention: Passing the clinical representations and CT representations through different linear layers provide us with **Q**, **K** and **V** matrices. This branch uses clinical representations to query CT regional tokens, providing us with attention weights over 64 CT regions. The final CT representation is obtained by weighted aggregation, representing a patient specific CT summary. with regional weighting conditioned on structured clinical context
+- Concept predictor: Concatenates the clinical and CT representations obtained before and predict 20 weak concepts associated with patient
+- Fusion and risk prediction: Takes in the concatenated clinical and CT representations, to predict the fused logit and adds it with concept logits to predict the final probability of postoperative risk
+- Full architecture diagram is provided below, with details in the paper
 
 ![SurgConcept-CT architecture](https://github.com/anonymouspeerblind/SurgConcept-CT/blob/main/surgconcept_ct_architecture.png)
 
